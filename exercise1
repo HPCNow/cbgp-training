@@ -1,0 +1,18 @@
+#!/bin/bash
+echo 'Beginning exercise1 script...'
+echo ' '
+echo -n 'Begin time: '; date
+echo ' '
+echo -n 'I am '; whoami
+echo ' '
+echo -n 'The working directory is '; pwd
+echo ' '
+echo 'Listing the working directory: '
+ls -l
+echo ' '
+echo 'Queue information at this time: '
+sinfo -s
+echo ' '
+echo -n 'End time: '; date
+echo ' '
+echo 'Done'

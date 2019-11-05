@@ -2,7 +2,7 @@
 ##### These lines are for Slurm
 #SBATCH -t 5:00
 #SBATCH -N 1
-#SBATCH -n 4
+#SBATCH --cpus-per-task=4
 #SBATCH -p main
 #SBATCH -o output.omp
 #SBATCH -J omp

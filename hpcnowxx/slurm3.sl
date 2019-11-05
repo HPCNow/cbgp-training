@@ -1,7 +1,7 @@
 #!/bin/bash
 ##### These lines are for Slurm
 #SBATCH -t 5:00
-#SBATCH -N 4
+#SBATCH -n 4
 #SBATCH -p main
 #SBATCH -o output.mpiarray
 #SBATCH -J mpiarray
